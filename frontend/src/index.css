@@ -1,0 +1,40 @@
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+
+:root {
+  --orange-500: #fa500f;
+  --orangebright-500: #ff8205;
+  --green-600: #46be00;
+  --red-500: #ff2b26;
+
+  --slate-50: #f9fafc;
+  --slate-200: #e8ecf2;
+  --slate-500: #677489;
+  --slate-900: #111622;
+
+  --text: var(--slate-900);
+  --text-muted: var(--slate-500);
+  --border: var(--slate-200);
+  --bg: #ffffff;
+
+  --success: var(--green-600);
+  --error: var(--red-500);
+
+  color-scheme: light;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  color: var(--text);
+  background-color: var(--bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--text);
+}

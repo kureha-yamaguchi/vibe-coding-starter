@@ -1,0 +1,55 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 24px;
+  background-color: var(--bg);
+}
+
+.app__logo {
+  width: 96px;
+  height: auto;
+}
+
+.app__title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.app__subtitle {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  text-align: center;
+  max-width: 28rem;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+}
+
+.badge__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+}
+
+.badge--ok .badge__dot {
+  background: var(--success);
+}
+
+.badge--down .badge__dot {
+  background: var(--error);
+}

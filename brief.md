@@ -1,0 +1,7 @@
+- objective: blind test application
+- audio preview (no key needed)
+- build full application end to end
+- LLM 
+- start simple and then add additional features
+- use cases: play a game
+- non-negotiables: mistral model must be used in this game
